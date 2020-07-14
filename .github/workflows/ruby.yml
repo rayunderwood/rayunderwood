@@ -2,7 +2,7 @@ name: Ruby
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "0 0 0 1"
   push:
     branches:
       - master
